@@ -1,5 +1,5 @@
 feature "Destroying feedback" do
-  @Javascript
+
   scenario "User successfully destroys feedback" do    
     visit '/feedbacks/new'
     fill_in "feedback_text", :with => 'test2'

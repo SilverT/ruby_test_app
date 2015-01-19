@@ -1,6 +1,6 @@
 feature "Editing feedback" do
   
-  scenario "User does not finalize the edit" do
+  scenario "User does not finalize the feedback edit" do
     visit '/feedbacks/new'
     
     fill_in "feedback_text", :with => 'test5'
