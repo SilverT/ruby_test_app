@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 feature "Adding feedback" do
   scenario "User successfully creates new feedback" do
     visit '/feedbacks/new'

@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 feature "Editing feedback" do
   
   scenario "User edits feedback successfully" do

@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 feature "Viewing feedback" do
   
   scenario "User views feedback successfully" do

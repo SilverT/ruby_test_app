@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 feature "Destroying feedback" do
   
   scenario "User cancels feedback deletion" do
